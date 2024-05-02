@@ -1,4 +1,4 @@
-laconst { Sequelize } = require("sequelize");
+nolaconst { Sequelize } = require("sequelize");
 const fs = require("fs");
 if (fs.existsSync("config.env"))
   require("dotenv").config({ path: "./config.env" });
@@ -22,7 +22,7 @@ module.exports = {
   //_________________________________________________________________________________________________________________________________
   AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'true',
   //_________________________________________________________________________________________________________________________________
-  SESSION_ID: process.env.SESSION_ID || "Phoenix~86b1b9aaf27d5da73cdf3b80fcadfc70", //Enter Your Session Id Here
+  SESSION_ID: process.env.SESSION_ID || "Phoenix~d06b3c175776839fdfc295e6b3976742", //Enter Your Session Id Here
   //_________________________________________________________________________________________________________________________________
   SUDO: process.env.SUDO || "254791886080",
   //_________________________________________________________________________________________________________________________________
